@@ -66,7 +66,7 @@ layers:
   - Ctl+Alt+T
   - $$mdi:backspace-reverse-outline$$
   Programming:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '!'
   - F1
   - F2
   - F3
