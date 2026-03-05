@@ -89,17 +89,17 @@ layers:
   - ^
   - '&'
   - '*'
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - '{'
   - {t: '[', s: '{'}
   - (
   - <
-  - {t: /, s: '?'}
+  - {t: '''', s: '"'}
   - {t: 'Sft+$$mdi:backspace$$', type: backspace}
-  - '&fzf'
+  - '"'
   - '>'
   - )
   - {t: ']', s: '}'}
@@ -110,7 +110,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - {t: '=', s: +}
-  - F11
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - _
@@ -126,7 +126,7 @@ layers:
   - {type: held}
   - '&nvim_save'
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
