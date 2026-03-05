@@ -62,6 +62,13 @@
             bindings = <&kp COLON &kp W &kp Q &kp A &kp EXCL>;
             label = "NVIM_SAVE";
         };
+
+        fzf: fzf {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp FSLH>;
+            label = "FZF";
+        };
     };
 
     keymap {
@@ -82,11 +89,11 @@
 
         L1 {
             bindings = <
-&trans      &kp F1          &kp F2            &kp F3                &kp LA(F4)   &kp F5     &mvim_top          &kp F6   &kp F7         &kp F8                 &kp F9             &kp F10          &trans
-&kp GRAVE   &kp EXCL        &kp AT            &kp POUND             &kp PERCENT  &kp F11    &kp LS(G)          &kp F12  &kp AMPERSAND  &kp ASTERISK           &kp DOT            &kp SLASH        &trans
-&kp TILDE   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp CARET    &kp LT     &kp LS(BACKSPACE)  &kp GT   &kp DOLLAR     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
-&trans      &trans          &trans            &kp PLUS              &kp EQUAL    &trans     &kp LS(DELETE)     &trans   &kp UNDER      &kp MINUS              &trans             &trans           &trans
-&kp C_MUTE  &trans          &trans            &trans                &trans       &trans     &nvim_save         &trans   &trans         &trans                 &trans             &trans
+&trans      &kp F1          &kp F2            &kp F3                &kp LA(F4)     &kp F5         &mvim_top          &kp F6         &kp F7            &kp F8                 &kp F9             &kp F10          &trans
+&kp GRAVE   &kp EXCL        &kp AT            &kp POUND             &kp DOLLAR     &kp PERCENT    &kp LS(G)          &kp CARET      &kp AMPERSAND     &kp ASTERISK           &kp DOT            &kp SLASH        &trans
+&kp TILDE   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp SLASH      &kp LS(BACKSPACE)  &fzf           &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
+&trans      &trans          &trans            &kp PLUS              &kp EQUAL      &kp F11        &kp LS(DELETE)     &trans         &kp UNDER         &kp MINUS              &trans             &trans           &trans
+&kp C_MUTE  &trans          &trans            &trans                &trans         &trans         &nvim_save         &kp LS(ENTER)  &trans            &trans                 &trans             &trans
             >;
 
             display-name = "Programming";
