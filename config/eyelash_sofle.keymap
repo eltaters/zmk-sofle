@@ -89,11 +89,11 @@
 
         L1 {
             bindings = <
-&trans      &kp F1          &kp F2            &kp F3                &kp LA(F4)     &kp F5              &mvim_top          &kp F6             &kp F7            &kp F8                 &kp F9             &kp F10          &trans
-&kp GRAVE   &kp EXCL        &kp AT            &kp POUND             &kp DOLLAR     &kp PERCENT         &kp LS(G)          &kp CARET          &kp AMPERSAND     &kp ASTERISK           &kp F11            &kp F12          &trans
-&kp TILDE   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp SINGLE_QUOTE    &kp LS(BACKSPACE)  &kp DOUBLE_QUOTES  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
-&trans      &trans          &trans            &kp PLUS              &kp EQUAL      &trans              &kp LS(DELETE)     &trans             &kp UNDER         &kp MINUS              &trans             &trans           &trans
-&kp C_MUTE  &trans          &trans            &trans                &trans         &trans              &nvim_save         &kp LS(ENTER)      &kp LS(ENTER)     &trans                 &trans             &trans
+&trans      &kp F1          &kp F2            &kp F3                &kp LA(F4)     &kp F5              &fzf    &kp F6             &kp F7            &kp F8                 &kp F9             &kp F10          &trans
+&kp GRAVE   &kp EXCL        &kp AT            &kp POUND             &kp DOLLAR     &kp PERCENT         &fzf    &kp CARET          &kp AMPERSAND     &kp ASTERISK           &kp F11            &kp F12          &trans
+&kp TILDE   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp SINGLE_QUOTE    &fzf    &kp DOUBLE_QUOTES  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
+&trans      &trans          &trans            &kp PLUS              &kp EQUAL      &trans              &fzf    &trans             &kp UNDER         &kp MINUS              &trans             &trans           &trans
+&kp C_MUTE  &trans          &trans            &trans                &trans         &trans              &trans  &kp LS(ENTER)      &kp LS(ENTER)     &trans                 &trans             &trans
             >;
 
             display-name = "Programming";
