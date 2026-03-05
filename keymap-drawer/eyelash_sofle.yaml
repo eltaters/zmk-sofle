@@ -72,7 +72,7 @@ layers:
   - F3
   - Alt+F4
   - F5
-  - '&mvim_top'
+  - '&fzf'
   - F6
   - F7
   - F8
@@ -85,7 +85,7 @@ layers:
   - '#'
   - $
   - '%'
-  - Sft+G
+  - '&fzf'
   - ^
   - '&'
   - '*'
@@ -98,7 +98,7 @@ layers:
   - (
   - <
   - {t: '''', s: '"'}
-  - {t: 'Sft+$$mdi:backspace$$', type: backspace}
+  - '&fzf'
   - '"'
   - '>'
   - )
@@ -111,7 +111,7 @@ layers:
   - +
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+$$mdi:backspace-reverse-outline$$
+  - '&fzf'
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - {t: '-', s: _}
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - '&nvim_save'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
