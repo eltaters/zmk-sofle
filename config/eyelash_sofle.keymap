@@ -93,7 +93,7 @@
 &kp GRAVE   &kp EXCL        &kp AT            &kp POUND             &kp DOLLAR     &kp PERCENT         &fzf    &kp CARET          &kp AMPERSAND     &kp ASTERISK           &kp F11            &kp F12          &trans
 &kp TILDE   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp SINGLE_QUOTE    &fzf    &kp DOUBLE_QUOTES  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans
 &trans      &trans          &trans            &kp PLUS              &kp EQUAL      &trans              &fzf    &trans             &kp UNDER         &kp MINUS              &trans             &trans           &trans
-&kp C_MUTE  &trans          &trans            &trans                &trans         &trans              &trans  &kp LS(ENTER)      &kp LS(ENTER)     &trans                 &trans             &trans
+&kp C_MUTE  &sys_reset      &bootloader       &trans                &trans         &trans              &trans  &kp LS(ENTER)      &kp LS(ENTER)     &trans                 &trans             &trans
             >;
 
             display-name = "Programming";
